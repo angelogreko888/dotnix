@@ -3,7 +3,7 @@
   imports = [
   ./packages.nix
   ./ranger.nix
-  ./applications-default.nix
+#  ./applications-default.nix
   ./fish/fish.nix
   ./environment.nix
   ./terminal.nix

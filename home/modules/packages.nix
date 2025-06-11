@@ -65,6 +65,7 @@ anydesk
 flameshot
 python3
 dysk
+firejail
   
   htop
   btop
