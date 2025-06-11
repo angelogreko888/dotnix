@@ -14,7 +14,7 @@ fi
 touch "$flag"
 
 while (true); do
-	sleep 1800
+	sleep 900
 	~/bin/freetube.sh
 	cd ~/dotnix
 	a=$(git status | wc -l) > /dev/null
