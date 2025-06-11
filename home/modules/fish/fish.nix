@@ -159,6 +159,8 @@ alias ee "pgrep sleep"
 alias d "dysk"
 alias f "fish"
 
+alias cdc "cd /mnt.data"
+
 alias cdn "cd ~/dotnix/nix/"
 alias cdh "cd ~/dotnix/home/"
 alias chm "cd ~/dotnix/home/modules/"
@@ -168,6 +170,7 @@ alias cdw "cd ~/dotnix/home/modules/waybar/"
 alias cnm "cd ~/dotnix/nix/modules"
 alias cnh "cd ~/dotnix/nix/hosts"
 alias cdt "cd ~/dotnix/"
+alias cbb "~/dotnix/home/modules/bin"
 
 alias hs "home-manager switch --flake ~/dotnix/home/#vago"
 '';

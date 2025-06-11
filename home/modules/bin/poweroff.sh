@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 rm -rf ~/.cache/* 
 sleep 0.5
-~/bin/freetube.sh
-sleep 0.5
 ~/bin/fishh.sh
 sleep 0.5
 ~/bin/bup.sh

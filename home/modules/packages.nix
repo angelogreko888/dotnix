@@ -62,6 +62,8 @@ ntfs3g
 freetube
 tree
 nix-tree
+anydesk
+flameshot
   
   htop
   btop
