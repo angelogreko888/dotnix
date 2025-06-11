@@ -173,6 +173,9 @@ alias cdt "cd ~/dotnix/"
 alias cbb "cd ~/dotnix/home/modules/bin/"
 
 alias hs "home-manager switch --flake ~/dotnix/home/#vago"
+alias sw "~/bin/switch.sh"
+
+
 '';
 
 };

@@ -64,6 +64,7 @@ nix-tree
 anydesk
 flameshot
 python3
+dysk
   
   htop
   btop
