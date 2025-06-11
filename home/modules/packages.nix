@@ -64,6 +64,7 @@ tree
 nix-tree
 anydesk
 flameshot
+libeatmydata
   
   htop
   btop

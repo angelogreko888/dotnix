@@ -170,7 +170,7 @@ alias cdw "cd ~/dotnix/home/modules/waybar/"
 alias cnm "cd ~/dotnix/nix/modules"
 alias cnh "cd ~/dotnix/nix/hosts"
 alias cdt "cd ~/dotnix/"
-alias cbb "~/dotnix/home/modules/bin"
+alias cbb "cd ~/dotnix/home/modules/bin/"
 
 alias hs "home-manager switch --flake ~/dotnix/home/#vago"
 '';
