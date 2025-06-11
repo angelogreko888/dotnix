@@ -19,9 +19,9 @@ do
 sleep 2
 done
 
-  cd ~/dotfiles 
+  cd ~/dotnix
   exec foot sh -c  'git pull;
-  cd ~/dotfiles/freetube/.config/FreeTube/;
+  cd ~/dotnix/home/modules/freetube;
   rsync history.db  ~/.config/FreeTube/history.db;
   rsync playlists.db  ~/.config/FreeTube/playlists.db;
   rsync profiles.db  ~/.config/FreeTube/profiles.db;
