@@ -63,6 +63,7 @@ tree
 nix-tree
 anydesk
 flameshot
+python3
   
   htop
   btop
