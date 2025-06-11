@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 
-kill $(pidof waybar)
-waybar &
+kill $(pidof waybar) && waybar &
 

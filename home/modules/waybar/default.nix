@@ -150,7 +150,7 @@
     	"format-full"= "<span size='13000' foreground='#B1E3AD'> </span>{capacity}%";
     	"format-icons"= [""  ""  ""  ""  ""];
     	"tooltip-format"= "{time}";
-    	"on-click-right"= "./relaunch.sh &";
+    	"on-click-right"= "$HOME/dotnix/home/modules/waybar/relaunch.sh &";
 	  };
 
 
@@ -205,7 +205,7 @@
         ];
 	};
         "scroll-step"= "5.0";
-        "on-click"= "./scripts/Volume.sh --toggle";
+        "on-click"= "$HOME/dotnix/home/modules/waybar/scripts/Volume.sh --toggle";
         "on-click-right"= "pavucontrol -t 3";
         "on-scroll-up"= "$HOME/dotnix/home/modules/waybar/scripts/Volume.sh --inc";
         "on-scroll-down"= "$HOME/dotnix/home/modules/waybar/scripts/Volume.sh --dec";

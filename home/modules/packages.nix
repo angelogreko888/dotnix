@@ -34,7 +34,6 @@ gnome-disk-utility
 gnome-text-editor
 gparted
 less
-libeatmydata
 libreoffice-fresh
 ncdu
 nanorc
@@ -64,7 +63,6 @@ tree
 nix-tree
 anydesk
 flameshot
-libeatmydata
   
   htop
   btop
