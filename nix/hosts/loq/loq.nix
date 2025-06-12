@@ -4,7 +4,7 @@
     [ 
         ./configuration.nix 
         ../shared-configuration.nix
-#	../../modules/loq
+	../../modules/loq
 	../hyprland.nix
     ];
 
