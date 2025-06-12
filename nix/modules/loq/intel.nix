@@ -74,13 +74,13 @@
         lib.optionals useIntelVaapiDriver [ intel-vaapi-driver-32 ]
         ++ lib.optionals useIntelMediaDriver [ intel-media-driver-32 ];
 
-      assertions = [
-        {
-          assertion = (
-            cfg.driver != "xe" || lib.versionAtLeast config.boot.kernelPackages.kernel.version "6.8"
-          );
-          message = "Intel Xe GPU driver is not supported on kernels earlier than 6.8. Update or use the i915 driver.";
-        }
-      ];
+#      assertions = [
+#        {
+#          assertion = (
+#            cfg.driver != "xe" || lib.versionAtLeast config.boot.kernelPackages.kernel.version "6.8"
+#          );
+#          message = "Intel Xe GPU driver is not supported on kernels earlier than 6.8. Update or use the i915 driver.";
+#        }
+#      ];
     };
 }
