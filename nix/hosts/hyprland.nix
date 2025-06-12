@@ -7,7 +7,7 @@ programs.hyprland = {
   };
 
 environment.sessionVariables = {
-#  WLR_NO_HARDWARE_CURSOR = "1";
+  WLR_NO_HARDWARE_CURSOR = "1";
   NIXOS_OZONE_WL ="1";
   };
 
