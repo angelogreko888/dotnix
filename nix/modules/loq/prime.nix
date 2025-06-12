@@ -15,6 +15,8 @@
         enableOffloadCmd = lib.mkIf config.hardware.nvidia.prime.offload.enable true; # Provides `nvidia-offload` command.
       };
       # Hardware should specify the bus ID for intel/nvidia devices
+	intelBusId = "PCI:00:02:0";
+        nvidiaBusId = "PCI:01:00:0";
     };
 
     specialisation = lib.mkIf config.hardware.nvidia.primeBatterySaverSpecialisation {

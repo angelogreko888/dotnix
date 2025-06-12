@@ -4,7 +4,7 @@
     [ 
         ./configuration.nix 
         ../shared-configuration.nix
-	../../modules/legion
+#	../../modules/loq
 	../hyprland.nix
     ];
 
