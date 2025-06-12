@@ -6,6 +6,7 @@
         ../shared-configuration.nix
 	../../modules/loq
 	../hyprland.nix
+	./nvidia.nix
     ];
 
 
