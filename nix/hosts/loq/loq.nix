@@ -4,9 +4,8 @@
     [ 
         ./configuration.nix 
         ../shared-configuration.nix
-	../../modules/loq
+	../../modules/legion
 	../hyprland.nix
-	../printer.nix
     ];
 
 
