@@ -16,6 +16,9 @@
 
   programs.hyprland.enable = true;
 
-
+ fileSystems."/mnt/data" = {
+    device = "/dev/disk/by-uuid/7612ec6b-fe49-47e0-a964-f8fada9c0bea";
+    fsType = "ext4";
+  };
 
 }
