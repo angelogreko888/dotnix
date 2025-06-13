@@ -159,7 +159,7 @@ alias ee "pgrep sleep"
 alias d "dysk"
 alias f "fish"
 
-alias cdc "cd /mnt.data"
+alias cdc "cd /mnt/data"
 
 alias cdn "cd ~/dotnix/nix/"
 alias cdh "cd ~/dotnix/home/"
