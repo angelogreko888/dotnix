@@ -66,6 +66,7 @@ flameshot
 python3
 dysk
 firejail
+hypridle
   
   htop
   btop
