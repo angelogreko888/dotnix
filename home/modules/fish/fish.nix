@@ -138,7 +138,7 @@ alias tm "sudo fstrim -av"
 
 alias pp "hyprprop WM_CLASS"
 
-alias cf "nano  ~/.config/fish/config.fish"
+alias cf "nano  ~/dotnix/home/modules/fish/fish.nix"
 alias cpi "~/bin/cpinst.sh"
 alias bh "~/bin/bh"
 alias ngr "sudo nano /etc/default/grub"
