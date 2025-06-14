@@ -32,7 +32,7 @@ in
 	scrollback-down-page="Page_Down";
 	search-start="Control+f";
 	};
-    };
-  };
+	};
+	};
 
 }
