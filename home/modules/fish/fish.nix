@@ -160,6 +160,7 @@ alias d "dysk"
 alias f "fish"
 
 alias cdc "cd /mnt/data"
+alias cdv "cd /mnt/vt"
 
 alias cdn "cd ~/dotnix/nix/"
 alias cdh "cd ~/dotnix/home/"
