@@ -41,6 +41,24 @@
       flake = "/home/vago/dotnix/nix";
       };
     };
+#security.wrappers = {
+#firejail = {
+#source = “${pkgs.firejail}/bin/firejail”;
+#owner = “root”;
+#group = “wheel”;
+#setuid = true;
+#setguid = true;
+#};
+#};
 
+security.wrappers = {
+  firejail = {
+    source = "${pkgs.firejail}/bin/firejail";
+    owner = "root";
+    group = "wheel";
+    setuid = true;
+#    setguid = true;
+  };
+};
 
 }

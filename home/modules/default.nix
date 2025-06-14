@@ -15,6 +15,6 @@
   ./fastfetch.nix
   ./git.nix
 #  ./foot.nix
-   ./firejail.nix
+#   ./firejail.nix
 ];
 }

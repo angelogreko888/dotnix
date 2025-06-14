@@ -15,6 +15,13 @@ programs.firejail = {
         "--dbus-user.talk=org.freedesktop.Notifications"
       ];
     };
+  };
+
+security.wrappers = {
+  firejail = {
+    source = "${pkgs.firejail.out}/bin/firejail";
+  };
+};
 
 environment.etc = {
   "firejail/librewolf.local".text = ''
@@ -88,8 +95,8 @@ boot.kernel.sysctl = {
   "net.ipv4.conf.tornet.route_localnet" = 1;
 };
 
-firejail --net=tornet --dns=46.182.19.48 --profile=$(nix --extra-experimental-features nix-command --extra-experimental-features flakes eval -f '<nixpkgs>' --raw 'firejail')/etc/firejail/firefox.profile librewolf
+#firejail --net=tornet --dns=46.182.19.48 --profile=$(nix --extra-experimental-features nix-command --extra-experimental-features flakes eval -f '<nixpkgs>' --raw 'firejail')/etc/firejail/librewolf.profile librewolf
 
 
-
+};
 }
