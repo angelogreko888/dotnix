@@ -7,6 +7,7 @@
 	../../modules/loq
 	../hyprland.nix
 	./nvidia.nix
+	../printer.nix
     ];
 
 
