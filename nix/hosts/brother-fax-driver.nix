@@ -2,7 +2,7 @@
 
 stdenv.mkDerivation {
   name = "brother-fax-driver";
-  version = "2.0.1";
+  version = "2.0.2-1";
   
   src = ./extracted_contents;
   
