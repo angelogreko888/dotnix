@@ -19,13 +19,8 @@ do
 sleep 2
 done
 
-cd ~/dotnix
 exec foot sh -c '
-git fetch origin
-if [ $? -eq 0 ];then
-  sleep 10
-  exit
-  else
+  cd ~/dotnix;
   git pull;
   cd ~/dotnix/home/modules/freetube;
   rsync history.db  ~/.config/FreeTube/history.db;
@@ -33,6 +28,5 @@ if [ $? -eq 0 ];then
   rsync profiles.db  ~/.config/FreeTube/profiles.db;
   rsync search-history.db  ~/.config/FreeTube/search-history.db;
   rsync settings.db  ~/.config/FreeTube/settings.db;
-  ~/bin/switch.sh
+  ~/bin/switch.sh;
   echo ~~~~~~~~~~~~~~~~Done!!!~~~~~~~~~~~~~~~~; cd ~;  read'
-fi
