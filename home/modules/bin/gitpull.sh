@@ -21,6 +21,8 @@ done
 
 exec foot sh -c '
   cd ~/dotnix;
+git fetch origin
+if [ $? -ne 0 ];then
   git pull;
   cd ~/dotnix/home/modules/freetube;
   rsync history.db  ~/.config/FreeTube/history.db;
@@ -29,4 +31,7 @@ exec foot sh -c '
   rsync search-history.db  ~/.config/FreeTube/search-history.db;
   rsync settings.db  ~/.config/FreeTube/settings.db;
   ~/bin/switch.sh;
-  echo ~~~~~~~~~~~~~~~~Done!!!~~~~~~~~~~~~~~~~; cd ~;  read'
+else
+echo
+echo ~~~~~~~~~~~~~~~~Done!!!~~~~~~~~~~~~~~~~; cd ~;  read'
+fi
