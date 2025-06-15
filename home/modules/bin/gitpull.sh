@@ -33,6 +33,6 @@ if [ $? -ne 0 ];then
   ~/bin/switch.sh;
 echo
 else
-echo
+echo 
 fi
 echo ~~~~~~~~~~~~~~~~Done!!!~~~~~~~~~~~~~~~~; cd ~;  read'
