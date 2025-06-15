@@ -8,6 +8,7 @@
 	../hyprland.nix
 	./nvidia.nix
 	../printer.nix
+	../brother-fax-driver.nix
     ];
 
 
