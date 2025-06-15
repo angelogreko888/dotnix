@@ -1,6 +1,9 @@
-{ stdenv, lib, ... }:
-
-stdenv.mkDerivation {
+{ stdenv, lib, pkgs ? import <nixpkgs> { }, ... }:
+let
+  inherit (pkgs) stdenv;
+in
+{
+pkgs.stdenv.mkDerivation = {
   name = "brother-fax-driver";
   version = "2.0.2-1";
   
@@ -16,4 +19,5 @@ stdenv.mkDerivation {
     license = licenses.unfree;
     platforms = platforms.linux;
   };
+};
 }

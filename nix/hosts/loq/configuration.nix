@@ -68,6 +68,7 @@
 #	(callPackage ./brother-fax-driver.nix {})
 	brgenml1lpr
 	brgenml1cupswrapper
+#(callPackage ../brother-fax-driver.nix {})
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
