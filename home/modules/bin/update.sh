@@ -23,7 +23,7 @@ if [ $a == Sat ];then
 		~/bin/switch.sh
 		echo ~~~~~~~~~~~~~~~~Done!!!~~~~~~~~~~~~~~~~; cd ~;  read'
 else
-		if [ -f /var/tmp/trim.sh.flag ]; then
+		if [ -f /var/tmp/update.sh.flag ]; then
 		rm /var/tmp/trim.sh.flag 
 		fi
 fi
