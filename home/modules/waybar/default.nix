@@ -81,7 +81,7 @@
 	};
 
    "clock"= {
-         "format"= "{:%I:%M %p  %a %d/%m}";
+         "format"= "{:%I:%M %p  %a %b %d}";
          "tooltip-format"= "<tt>{calendar}</tt>";
    "calendar"= {
          "mode"= "month";
