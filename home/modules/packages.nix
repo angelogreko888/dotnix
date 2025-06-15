@@ -23,6 +23,7 @@
 font-awesome
 nerd-fonts.jetbrains-mono
 
+brlaser
 xdg-user-dirs
 cups-pdf-to-pdf
 eog
