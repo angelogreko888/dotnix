@@ -52,7 +52,7 @@
   users.users.vago = {
     isNormalUser = true;
     description = "vago";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "lp" "video" "input"];
     packages = with pkgs; [];
   };
 
