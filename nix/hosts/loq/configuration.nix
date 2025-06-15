@@ -7,6 +7,7 @@
 {
   imports =
     [ # Include the results of the hardware scan.
+#	<nixpkgs/nixos/modules/services/hardware/sane_extra_backends/brscan4.nix>
       ./hardware-configuration.nix
     ];
 
@@ -52,7 +53,7 @@
   users.users.vago = {
     isNormalUser = true;
     description = "vago";
-    extraGroups = [ "networkmanager" "wheel" "lp" "video" "input"];
+    extraGroups = [ "networkmanager" "wheel" "lp" "video" "input" "scanner" ];
     packages = with pkgs; [];
   };
 
@@ -65,7 +66,8 @@
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
 #	(callPackage ./brother-fax-driver.nix {})
-  dpkg
+	brgenml1lpr
+	brgenml1cupswrapper
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
